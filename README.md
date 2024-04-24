@@ -1,8 +1,8 @@
 # Rails7 Boilerplate
 
 1. `docker compose build`
-2. `docker compose run --rm app gem install rails`
-3. `docker compose run --rm app rails new . -d mysql`  
+2. `docker compose run --rm web gem install rails`
+3. `docker compose run --rm web rails new . -d mysql`  
    アプリケーションの名前を App 以外にしたい場合は、 `-n` オプションで名前を指定する。
 4. `config/database.yml` の `default` 内に以下を記述。
 
